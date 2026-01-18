@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.20348.4648]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sqladmin>cd c"\PythonWorkshop"
+The system cannot find the path specified.
+
+C:\Users\sqladmin>cd c:\PythonWorkshop
+
+c:\PythonWorkshop>python -m venv .venv
+
+c:\PythonWorkshop>cd C:\PythonWorkshop\.venv\Scripts
+
+C:\PythonWorkshop\.venv\Scripts>Activate
+
+(.venv) C:\PythonWorkshop\.venv\Scripts>pip install pandas==2.1.2 && pip install xlrd==2.0.1 && pip install openpyxl==3.1.2 && pip install matplotlib==3.8.1 && pip install pyarrow==13.0.0
+Collecting pandas==2.1.2
+  Downloading pandas-2.1.2-cp311-cp311-win_amd64.whl (10.6 MB)
+     ---------------------------------------- 10.6/10.6 MB 40.9 MB/s eta 0:00:00
+Collecting numpy<2,>=1.23.2 (from pandas==2.1.2)
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+     ---------------------------------------- 15.8/15.8 MB 27.3 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2 (from pandas==2.1.2)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1 (from pandas==2.1.2)
+  Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Collecting tzdata>=2022.1 (from pandas==2.1.2)
+  Using cached tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas==2.1.2)
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+
+
+
